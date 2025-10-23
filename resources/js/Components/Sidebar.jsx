@@ -73,7 +73,7 @@ export default function Sidebar() {
                         <NavLink
                             href={route("submissions.index")}
                             active={route().current("submissions.*")}
-                            className="flex ml-1 items-center gap-3 p-2 text-gray-700 hover:bg-gray-100 rounded-md"
+                            className=" ml-1 hidden items-center gap-3 p-2 text-gray-700 hover:bg-gray-100 rounded-md"
                         >
                             <CheckCircle2 className="w-5 h-5" />
                             {open && (
